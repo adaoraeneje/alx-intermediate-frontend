@@ -44,3 +44,23 @@ body {
   margin-bottom: 1rem;
 }
 
+
+/* Simulated Tailwind Styles for Nav */
+.bg-gray-300 { background-color: #d1d5db; }
+.text-white { color: #ffffff; }
+.p-4 { padding: 1rem; }
+.flex { display: flex; }
+.space-x-5 > :not(:last-child) { margin-right: 1.25rem; }
+.justify-center { justify-content: center; }
+.text-xl { font-size: 1.25rem; }
+.px-2 { padding-left: 0.5rem; padding-right: 0.5rem; }
+.hover\:bg-gray-500:hover { background-color: #6b7280; }
+.rounded-lg { border-radius: 0.5rem; }
+
+/* Responsive flex direction */
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
