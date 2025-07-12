@@ -1,0 +1,7 @@
+# 0-installation-script
+
+1. I installed Node.js on my system.
+2. Then, I ran the command: npm install -g sass
+3. To confirm the installation, I ran: sass --version
+4. The version installed is 1.89.2 (Dart Sass)
+
