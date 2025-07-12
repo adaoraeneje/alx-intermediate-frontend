@@ -1,0 +1,6 @@
+# 0-installation-script
+1. I confirmed Node.js was already installed on my system.
+2. I installed Sass globally using: npm install -g sass
+3. I checked the version using: sass --version
+4. The installed version is: 1.89.2 (Dart Sass)
+
